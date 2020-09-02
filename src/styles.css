@@ -1,13 +1,13 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .App {
-	min-height: 100vh;
-	text-align: right;
-	color: white;
-	background: black;
-	--lightgrey-background: hsla(230, 7%, 97%, 1);
+  min-height: 100vh;
+  text-align: right;
+  color: white;
+  background: black;
+  --lightgrey-background: hsla(230, 7%, 97%, 1);
 }
 
 /*
@@ -17,444 +17,460 @@
 */
 
 body {
-	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .intro-section {
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: block;
-	min-height: calc(100vh - 60px);
-	background-position: top right;
-	padding-top: 30vh;
-	padding-right: 50px;
-	padding-left: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: calc(100vh - 60px);
+  background-position: top right;
+  padding-top: 30vh;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .intro-subsection-1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .intro-subsection-1 img {
-	width: 50%;
+  width: 50%;
 }
 
 .intro-subsection-2 {
-	display: flex;
-	flex-direction: column;
-	width: 40%;
-	justify-content: flex-start;
-	align-content: center;
-	text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: left;
 }
 
 .intro-h1 {
-	font-family: 'Prata', serif;
-	font-weight: 400;
-	font-size: 64px;
-	line-height: 87px;
-	margin: 0;
-	padding-bottom: 25px;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 .intro-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	margin: 0;
-	font-size: 18px;
-	line-height: 22px;
-	padding-bottom: 66px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 66px;
 }
 
 .intro-h2 a {
-	color: white;
+  color: white;
 }
 
 .intro-link-to-guest-book {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color: white;
-	text-decoration: none;
-	width: 157px;
-	height: 32px;
-	text-align: center;
-	line-height: 18px;
-	border: 1px solid white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  width: 157px;
+  height: 32px;
+  text-align: center;
+  line-height: 18px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-header {
-	background: black;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	position: sticky;
-	top: 0;
-	padding-left: 50px;
-	padding-right: 50px;
-	width: 100%;
-	height: 60px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: 60px;
 }
 
 .main-header-logo a {
-	font-family: 'Prata', serif;
-	color: white;
-	font-size: 30px;
-	font-weight: 900;
-	text-decoration: none;
+  font-family: "Prata", serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 .main-nav ul {
-	margin: 1em 0 0.5em;
-	text-align: center;
+  margin: 1em 0 0.5em;
+  text-align: center;
 }
 
 .main-nav li {
-	display: inline;
+  display: inline;
 }
 
 .main-nav a {
-	display: inline-block;
-	padding: 0.5em 1.5em;
-	color: inherit;
-	text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  color: inherit;
+  text-decoration: none;
 }
 
 .guest-book-section {
-	background: var(--lightgrey-background);
-	background-size: cover;
-	display: block;
-	min-height: 100vh;
-	padding-top: 10vh;
-	/* padding-right: 32px;
+  background: var(--lightgrey-background);
+  background-size: cover;
+  display: block;
+  min-height: 100vh;
+  padding-top: 10vh;
+  /* padding-right: 32px;
 	padding-left: 32px; */
-	padding-bottom: 50px;
-	color: black;
+  padding-bottom: 50px;
+  color: black;
 }
 
 .guest-book-subsection-1 {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  min-height: calc(100vh - 60px);
 }
 
 .guest-book-subsection-2 {
-	align-items: left;
+  align-items: left;
 }
 
 .guest-book-subsection-2 button {
-	background: var(--lightgrey-background);
-	text-align: left;
-	border: none;
-	display: flex;
-	align-items: center;
-	margin-bottom: 50px;
-	margin-left: 32px; /* added */
+  background: var(--lightgrey-background);
+  text-align: left;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 32px; /* added */
 }
 
 .guest-book-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .messages-container {
-	max-height: 80vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	justify-items: start;
-	flex-wrap: wrap;
-	height: 500;
-	width: 100%;
-	overflow: auto;
-	margin: 10px;
-	padding-left: 32px;
-	padding-right: 32px;
-	align-content: start;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-items: start;
+  flex-wrap: wrap;
+  height: 500;
+  width: 100%;
+  overflow: auto;
+  margin: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-content: start;
 }
 
 .guest-book-subsection-2 ul {
 }
 
 .guest-book-subsection-2 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .guestbook-message {
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	width: 370px;
-	height: item * 50;
-	background: white;
-	margin: 10px;
-	box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.13);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: item * 50;
+  background: white;
+  margin: 10px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.13);
 }
 
 .guestbook-message-message {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 100%;
 }
 
 .guestbook-message-subsection {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .guestbook-message-name {
-	flex: 1;
-	font-family: 'Montserrat', sans-serif;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 16px;
-	text-align: right;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: right;
 }
 
 .guestbook-message-date {
-	flex: 1;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 17px;
-	color: #717171;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #717171;
 }
 
 .guest-book-form {
-	position: absolute;
-	top: 150%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: white;
-	box-shadow: 4px 30px 60px rgba(0, 0, 0, 0.53);
-	width: 400px;
-	height: 400px;
-	padding-top: 28px;
-	padding-left: 22px;
-	padding-right: 22px;
-	padding-bottom: 22px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 4px 30px 60px rgba(0, 0, 0, 0.53);
+  width: 400px;
+  height: 400px;
+  padding-top: 28px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 22px;
 }
 
 .guest-book-form-section {
-	display: flex;
-	flex-direction: column;
-	align-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 
 .guest-book-form-from-label {
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	width: 100%;
-	padding-bottom: 4px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 100%;
+  padding-bottom: 4px;
 }
 
 .form-input-from {
-	display: block;
-	resize: none;
-	width: 100%;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 22px;
+  display: block;
+  resize: none;
+  width: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .guest-book-form-message-label {
-	/*position: absolute; */
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: black;
-	padding-top: 12px;
-	padding-bottom: 4px;
-	text-align: left;
+  /*position: absolute; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  text-align: left;
 }
 
 .form-input-message {
-	display: block;
-	resize: none;
-	width: 100%;
-	height: 210px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 22px;
+  display: block;
+  resize: none;
+  width: 100%;
+  height: 210px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .form-buttons {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-top: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 28px;
 }
 
 .form-cancel-button {
-	flex: 1;
-	padding: 0;
-	height: 22px;
-	border: none;
-	background: none;
-	justify-content: center;
-	color: darkgray;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
+  flex: 1;
+  padding: 0;
+  height: 22px;
+  border: none;
+  background: none;
+  justify-content: center;
+  color: darkgray;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .form-submit-button {
-	flex: 1;
-	padding: 0;
-	height: 22px;
-	border: none;
-	background: none;
-	justify-content: center;
-	color: black;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
+  flex: 1;
+  padding: 0;
+  height: 22px;
+  border: none;
+  background: none;
+  justify-content: center;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .form-submit-button svg {
-	height: 16px;
-	width: 16px;
+  height: 16px;
+  width: 16px;
 }
 
 .contact-section {
-	background: var(--lightgrey-background);
-	color: black;
-	background-size: cover;
-	display: block;
-	min-height: 100vh;
-	padding-top: 40vh;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 50px;
+  background: var(--lightgrey-background);
+  color: black;
+  background-size: cover;
+  display: block;
+  min-height: 100vh;
+  padding-top: 40vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-subsection-1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-subsection-2 {
-	display: flex;
-	height: 32px;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact-h1 {
-	font-family: 'Prata', serif;
-	font-weight: 400;
-	font-size: 64px;
-	line-height: 87px;
-	margin: 0;
-	padding-bottom: 14px;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  margin: 0;
+  padding-bottom: 14px;
 }
 
 .contact-subsection-2 a {
-	justify-content: flex-start;
-	padding-left: 9px;
-	padding-right: 9px;
+  justify-content: flex-start;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .contact-subsection-2 img {
-	max-height: 100%;
+  max-height: 100%;
+}
+
+.footer {
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 76px;
+  background-size: cover;
+  flex-direction: column;
+  width: 100%;
+  background: var(--lightgrey-background);
+  display: flex;
+  color: black;
+}
+
+.footer a {
+  color: black;
 }
 
 @media (max-width: 800px) {
-	.hide {
-		display: none !important;
-	}
+  .hide {
+    display: none !important;
+  }
 
-	.intro-section {
-		padding-top: 100px;
-	}
+  .intro-section {
+    padding-top: 100px;
+  }
 
-	.intro-subsection-1 {
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: left;
-		align-items: space-between;
-	}
+  .intro-subsection-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: space-between;
+  }
 
-	.intro-subsection-1 img {
-		padding-top: 50px;
-		width: 100%;
-	}
+  .intro-subsection-1 img {
+    padding-top: 50px;
+    width: 100%;
+  }
 
-	.intro-subsection-2 {
-		width: 100%;
-	}
+  .intro-subsection-2 {
+    width: 100%;
+  }
 
-	.intro-h1 {
-		font-style: normal;
-		font-weight: normal;
-		font-size: 36px;
-		line-height: 49px;
-	}
+  .intro-h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+  }
 
-	.intro-h2 {
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 20px;
-	}
+  .intro-h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
 
-	.main-header {
-		position: fixed;
-		bottom: 0;
-		justify-content: center;
-		padding-left: 20px;
-		padding-right: 20px;
-		top: unset;
-	}
+  .main-header {
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: unset;
+  }
 
-	.main-nav-list {
-		padding: 0;
-	}
+  .main-nav-list {
+    padding: 0;
+  }
 
-	.guestbook-message {
-		width: 310px;
-	}
+  .guestbook-message {
+    width: 310px;
+  }
 
-	.messages-container {
-		padding-left: 0px;
-		padding-right: 0px;
-		margin: 0px;
-	}
+  .messages-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
 
-	.guest-book-form {
-		width: 310px;
-	}
+  .guest-book-form {
+    width: 310px;
+  }
 
-	.contact-h1 {
-		font-style: normal;
-		font-weight: normal;
-		font-size: 24px;
-		line-height: 33px;
-	}
+  .contact-h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+  }
 }
